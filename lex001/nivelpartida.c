@@ -9,7 +9,7 @@ int main()
     printf("Quantos torcedores apareceram no estadio?\n");
     scanf("%f", &numTorcedores);
 
-    porcentagem = capEstadio / numTorcedores;
+    porcentagem = numTorcedores / capEstadio;
 
     if (porcentagem > 0.9)
     {
