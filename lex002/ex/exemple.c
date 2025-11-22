@@ -33,6 +33,5 @@ int main()
         
         default:
             printf("Opcao invalidan\n");
-            break;
     }
 }
